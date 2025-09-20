@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "name": "nova-social",
     "version": "0.1.0",
     "private": true,
@@ -31,4 +32,37 @@
         "tailwindcss": "^4",
         "typescript": "^5"
     }
+=======
+  "name": "social-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:studio": "prisma studio"
+  },
+  "dependencies": {
+    "@prisma/client": "5.18.0",
+    "bcryptjs": "2.4.3",
+    "cookies": "0.9.1",
+    "jsonwebtoken": "9.0.2",
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "2.4.6",
+    "@types/jsonwebtoken": "9.0.6",
+    "@types/react": "19.1.13",
+    "autoprefixer": "10.4.19",
+    "postcss": "8.4.41",
+    "prisma": "5.18.0",
+    "tailwindcss": "3.4.10",
+    "typescript": "5.6.2"
+  }
+>>>>>>> 1e78a84ba37c5432150f9a5c011193a42dc406a5
 }

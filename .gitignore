@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -41,3 +42,26 @@ yarn-error.log*
 next-env.d.ts
 
 /src/generated/prisma
+=======
+﻿# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.DS_Store
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Coverage / uploads / prisma dev DB
+coverage/
+public/uploads/
+prisma/dev.db
+prisma/dev.db-journal
+>>>>>>> 1e78a84ba37c5432150f9a5c011193a42dc406a5
