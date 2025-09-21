@@ -1,4 +1,4 @@
-﻿$dt = Get-Date -Format s
+$dt = Get-Date -Format s
 Add-Content -Path progress.log -Value ("// daily log " + $dt)
 git add .
 git commit -m ("chore: daily log " + $dt) 2>$null
